@@ -3,6 +3,7 @@ import Navbar from '../navbar/navbar'
 import Navbar2 from '../navbar/navbar2'
 import Banner from './banner'
 import Content from './content'
+import Cards from './cards'
 const homepage = () => {
     return (
         <div>
@@ -10,6 +11,8 @@ const homepage = () => {
             <Navbar2 />
             <Banner />
             <Content />
+            <Cards/>
+
         </div>
     )
 }
